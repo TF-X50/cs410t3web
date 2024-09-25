@@ -1,6 +1,8 @@
 title: CS410 Team 3
 description: Team Site
 theme: minimal
+source: docs
+
 
 plugins:
   - jekyll-seo-tag
