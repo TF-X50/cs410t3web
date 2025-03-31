@@ -4,8 +4,8 @@
     <title> - Labs</title>
 <style>
         nav {
-            background-color: #1eb300; /* White background */
-            padding: 10px; /* Adjust padding as needed */
+            background-color: #1eb300;
+            padding: 10px; 
         }
 
         nav ul {
@@ -21,20 +21,24 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #333;   
-
+            color: #333;    
             font-weight: bold;
+        }
+        
+        .pdf-container {
+            margin-top: 20px; 
+            border: 1px solid #ccc; 
         }
     </style>
 </head>
-<body>   
+<body>    
 
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="problem.html">Problem</a></li>
             <li><a href="solution.html">Solution</a></li>
-            <li><a href="team-members.html">Team   
+            <li><a href="team-members.html">Team    
  Members</a></li>
             <li><a href="deliverables.html">Deliverables</a></li>
             <li><a href="presentations.html">Presentations</a></li>
@@ -46,7 +50,12 @@
         </ul>
     </nav>
     <h1>Labs</h1>
-    <p>The content for "Labs" subpage.</p>
-    <p>You can add more information here.</p>
-</body>
+
+    <h2>Lab 1</h2>
+    <div class="pdf-container">
+        <embed src="lab1-b-v0.pdf" type="application/pdf" width="100%" height="800px" />
+        <p>If you cannot view the PDF above, you can <a href="lab1-b-v0.pdf" download>download it here</a>.</p>
+    </div>
+
+    </body>
 </html>
