@@ -16,15 +16,9 @@
   <!-- Placeholder for navbar -->
   <div id="navbar"></div>
 
-  <!-- JavaScript to load navbar.html -->
-  <script>
-    fetch('navbar.html')
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById('navbar').innerHTML = data;
-      });
-  </script>
-    <h1>Labs</h1>
+  
+  <div class="container mt-5 pt-5" style="margin-top: 60px;">
+    <h1 class="page-title">Labs</h1>
 
     <h2>Lab 1 Group V1</h2>
         <div class="pdf-container">
@@ -34,6 +28,14 @@
         <embed src="pdfs/lab1-b-v0.pdf" type="application/pdf" width="100%" height="800px" />
         /*<p>If you cannot view the PDF above, you can <a href="pdfs/lab1-b-v0.pdf" download>download it here</a>.</p>*/
     </div>
-
+  </div>
+  <!-- JavaScript to load navbar.html -->
+    <script>
+      fetch('navbar.html')
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
     </body>
 </html>
