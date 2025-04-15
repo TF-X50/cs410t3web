@@ -26,8 +26,8 @@ body, html {
 }
 
 nav {
-    background-color: #1eb300; /* White background */
-    padding: 5px 0; /* Adjust padding as needed */
+    background-color: #1eb300;
+    padding: 5px 0;
     width: 100%;
 }
 
@@ -56,4 +56,21 @@ nav .nav-link {
 nav .nav-link:hover {
     background-color: white;
     color: #1eb300 !important;
+}
+
+body {
+    background-color: #b5a8a8;
+}
+
+.presentation-card {
+    background-color: white;
+    padding: 80px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.presentation-wrapper {
+    padding: 100px 60px;
 }
