@@ -43,9 +43,9 @@ nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a {
+nav .nav-link {
     text-decoration: none;
-    color: #333; 
+    color: #333 !important; 
     font-size: 18px;
     font-weight: bold;
     padding: 15px 15px;
@@ -53,7 +53,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-nav ul li a:hover {
+nav .nav-link:hover {
     background-color: white;
-    color: #1eb300;
+    color: #1eb300 !important;
 }
