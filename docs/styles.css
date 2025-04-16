@@ -191,25 +191,28 @@ body {
 }
 
 .hero-logo-text {
+
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 
 .logo-q {
-    height: 60px;
+    height: 100px;
     width: auto;
     vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .logo-text {
-    align-items: center;
     font-family: 'Monserrat', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 1;
-    letter-spacing: -1px;
-    display: inline-flex;
+    letter-spacing: normal;
+    display: flex;
 }
 
 .hero-slogan {
