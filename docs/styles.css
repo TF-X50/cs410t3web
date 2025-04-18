@@ -225,6 +225,8 @@ body {
 
 .problem-features {
     background-color: #f0f4f8;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .section-title {
@@ -232,27 +234,42 @@ body {
     color: #222;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 2px solid #1eb300;
+    border-bottom: 3px solid #1eb300;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .seciton-subtitle {
     font-family: 'Monserrat', sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #555;
-    margin-bottom: 15px;
+    margin-top: 1rem;
 }
 
 .seciton-description {
     font-family: 'Monserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color:#444;
 }
+
+.section-heading {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    background-color: #0088a9;
+    margin: 0 auto 2.5rem auto;
+}
+
 .feature-text {
     font-family: 'Monserrat', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
-    color: #333;
+    font-size: 1.25rem;
+    color: #444;
 }
