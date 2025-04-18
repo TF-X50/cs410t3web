@@ -229,10 +229,10 @@ body {
 
 .section-title {
     font-family: 'Monserrat', sans-serif;
-    color: #ffc107;
+    color: #222;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 2px solid #ffc107;
+    border-bottom: 2px solid #1eb300;
     display: inline-block;
     margin-bottom: 10px;
 }
